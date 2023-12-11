@@ -47,6 +47,4 @@ with open("north_data/orders_data.csv", "r", newline="") as file:
             rows = cur.fetchall()
 
 conn.commit()
-
-conn.close()
 conn.close()
